@@ -22,7 +22,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     print(f"Bot da dang nhap: {bot.user}")
 
-ID phòng voice của bạn
+ID phong voice cua ban
     CHANNEL_ID = 1537535314619404318 
 
     channel = bot.get_channel(CHANNEL_ID)
